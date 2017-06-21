@@ -47,7 +47,7 @@ public class AccesssRepositoryTest {
         assertThat(employeeRepository.count(), notNullValue());
     }
 
-    String url = "jdbc:ucanaccess://" + "/home/costin/Downloads/AgeRange.mdb";
+    String url = "jdbc:ucanaccess://" + "src/test/resources/AgeRange.mdb";
 
 
     private void dump(ResultSet rs, String exName)
